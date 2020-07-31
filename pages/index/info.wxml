@@ -1,0 +1,56 @@
+<scroll-view class="content-info" scroll-y>
+<view>
+
+<swiper class="content-info-slide" autoplay="true" interval='3000' indicator-color="rgba(255,255,255,5)" indicator-active-color="#fff" indicator-dots circular autopaly>
+  <swiper-item>
+    <image src="/images/banner.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/banner2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/banner3.jpg"></image>
+  </swiper-item>
+</swiper>
+
+<view class="content-info-portal">
+  <view>
+    <image src="/images/04.png"/>
+    <text>私人FM</text>
+  </view>
+   <view>
+    <image src="/images/05.png"/>
+    <text>每日歌曲推荐</text>
+  </view>
+   <view>
+    <image src="/images/06.png"/>
+    <text>云音乐新歌榜</text>
+  </view>
+</view>
+
+<view class="content-info-list">
+  <view class="list-title">热门音乐</view>
+  <view class="list-inner">
+    <view class="list-item">
+      <image src="/images/cover.jpg"/><view>情人</view>
+    </view>
+    <view class="list-item">
+      <image src="/images/cover2.jpg"/><view>侧脸</view>
+    </view>
+    <view class="list-item">
+      <image src="/images/cover3.jpg"/><view>DDU-DU</view>
+    </view>
+    <view class="list-item">
+      <image src="/images/cover4.jpg"/><view>lalalla</view>
+    </view>
+    <view class="list-item">
+      <image src="/images/cover5.jpg"/><view>lalalla</view>
+    </view>
+    <view class="list-item">
+      <image src="/images/cover6.jpg"/><view>lalalla</view>
+    </view>
+  </view>
+</view>
+
+</view>
+</scroll-view>
